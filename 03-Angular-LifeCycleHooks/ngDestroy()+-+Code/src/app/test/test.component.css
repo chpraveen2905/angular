@@ -1,0 +1,13 @@
+h2{
+    font-size: 45px;
+    font-weight: 360;
+    text-align: center;
+}
+p{
+    font-size: 18px;
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+    padding: 12px;
+    border: 1px solid goldenrod;
+}

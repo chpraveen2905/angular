@@ -1,0 +1,19 @@
+h2{
+    text-align: center;
+    font-weight: 360;
+    color: goldenrod;
+}
+div{
+    border: 1px solid;
+}
+button{
+    display: block;
+    margin: 0 auto;
+    padding: 8px 16px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    background-color: dodgerblue;
+    margin-bottom: 12px;
+}
