@@ -1,0 +1,8 @@
+<ng-container *ngIf="listItems.length > 0; else noItems">
+    <ul>
+        <li *ngFor="let item of listItems">{{item}}</li>
+    </ul>
+</ng-container>
+<ng-template #noItems>
+    <p>No items to display!</p>
+</ng-template>

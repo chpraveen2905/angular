@@ -1,0 +1,6 @@
+<ng-container *ngFor="let subject of subjectList">
+    <div *ngIf="subject.subCode">
+        <span style="margin-right: 5px; font-size: 20px;">Subject Code : {{subject.subCode}},</span>
+        <span style="font-size: 20px;">Subject Name : {{subject.name}}</span>
+    </div>
+</ng-container>

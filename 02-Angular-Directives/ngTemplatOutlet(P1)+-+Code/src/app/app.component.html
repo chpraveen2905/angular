@@ -1,0 +1,4 @@
+<ng-template #show let-person="showMessage">
+    <p style="font-size: 20px;">My name is {{person.name}}, I am {{person.age}} years old & I'm from {{person.location}}</p>
+</ng-template>
+<ng-container *ngTemplateOutlet="show; context : {showMessage : showDetails}"></ng-container>
